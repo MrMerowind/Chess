@@ -1,0 +1,25 @@
+﻿<Window x:Name="MainChessWindow" x:Class="ChessEngine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChessEngine"
+        mc:Ignorable="d"
+        Title="Szachy by MrMerowind" Height="600" Width="746" MinWidth="746" MinHeight="600" MaxWidth="746" MaxHeight="600">
+    <Grid Background="#FF176E6E">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160*"/>
+            <ColumnDefinition Width="304*"/>
+            <ColumnDefinition Width="275*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas x:Name="Board" HorizontalAlignment="Left" Height="496" Margin="10,36,0,0" VerticalAlignment="Top" Width="496" Background="#FF939393" Grid.ColumnSpan="3" MouseLeftButtonDown="Board_MouseLeftButtonDown" MouseLeftButtonUp="Board_MouseLeftButtonUp">
+        </Canvas>
+        <Label x:Name="BlackTimer" Content="Czarne: 00:00" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.29,-0.004" Width="221" Background="Black" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="WhiteTimer" Content="Białe: 00:00" HorizontalAlignment="Left" Margin="10,533,0,0" VerticalAlignment="Top" Width="221" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Button x:Name="ButtonPlayWithPerson" Content="Graj z osobą" HorizontalAlignment="Left" Margin="75,36,0,0" VerticalAlignment="Top" Width="179" Height="28" Grid.Column="2" Click="ButtonPlayWithPerson_Click"/>
+        <Button x:Name="ButtonPlayWithComputerAsWhite" Content="Graj z komputerem białymi" HorizontalAlignment="Left" Margin="75,69,0,0" VerticalAlignment="Top" Width="179" Height="28" Grid.Column="2" Click="ButtonPlayWithComputerAsWhite_Click"/>
+        <Button x:Name="ButtonPlayWithComputerAsBlack" Content="Graj z komputerem czarnymi" HorizontalAlignment="Left" Margin="75,102,0,0" VerticalAlignment="Top" Width="179" Height="28" Grid.Column="2" Click="ButtonPlayWithComputerAsBlack_Click"/>
+        <Button x:Name="ButtonPlayTwoComputers" Content="Gra dwóch komputerów" HorizontalAlignment="Left" Margin="75,135,0,0" VerticalAlignment="Top" Width="179" Height="28" Grid.Column="2" Click="ButtonPlayTwoComputers_Click"/>
+
+    </Grid>
+</Window>

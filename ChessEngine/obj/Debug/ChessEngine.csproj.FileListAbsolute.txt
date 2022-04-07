@@ -1,0 +1,15 @@
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\bin\Debug\ChessEngine.exe.config
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\bin\Debug\ChessEngine.exe
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\bin\Debug\ChessEngine.pdb
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\MainWindow.g.cs
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\App.g.cs
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine_MarkupCompile.cache
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine_MarkupCompile.lref
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\MainWindow.baml
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.g.resources
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.Properties.Resources.resources
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.csproj.GenerateResource.cache
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.csproj.CoreCompileInputs.cache
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.exe
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.pdb
+C:\Users\Mero\Desktop\ChessEngine\ChessEngine\ChessEngine\obj\Debug\ChessEngine.csprojAssemblyReference.cache
